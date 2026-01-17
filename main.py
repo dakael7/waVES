@@ -24,7 +24,7 @@ DB_NAME = "tasas.db"
 
 def limpiar_datos_antiguos():
     """
-    MANTENIMIENTO: Elimina registros con más de 6 meses de antigüedad.
+    MANTENIMIENTO: Elimina registros con más de 6 meses de antigüedad. 
     Se ejecuta al iniciar y en cada actualización para mantener la DB ligera.
     """
     try:
